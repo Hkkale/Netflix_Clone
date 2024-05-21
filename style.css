@@ -9,7 +9,7 @@
     padding: 0;
     box-sizing:border-box ;
     font-family: 'Segoe UI';
-    overflow-x: hidden;
+    
     
 
 }
@@ -126,7 +126,7 @@
 
 .ent_eml{
     height: 50px;
-    width: 35%;
+    width: 25%;
     background-color: rgba(0, 0, 0, 0.682);
     
     font-size: 25px;
@@ -134,7 +134,8 @@
     border-radius:4px ;
     
     color: white;
-    border: none;
+    border: 0.5px sokid white;
+    
 
 }
 .eml_btn{
@@ -152,7 +153,8 @@
 .ent_eml::placeholder {
     color: rgba(255, 255, 255, 0.728); /* Specify the desired color */
     font-size: 15px;
-    padding: 10px;
+    padding:5%;
+   
 }
 
 .line{
@@ -291,14 +293,58 @@
     margin-bottom: 110px;
 }
 
-.chil_img{
-    margin-left: 10%;
+.child_img{
+    margin-left: 8%;
+    height: 80%;
+    width: 60%;
     margin-top: 5%;
-    margin-right: 10%;
 }
 .content_5_Items{
 
+    color: white;
+    margin-left: 10%;
 }
+.foot_ques{
+    height: 120vh;
+    width: 100vw;
+    background-color: black;
+    color: white;   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.1%;
+    padding:3%;
+}
+
+.que{
+    height: 11%;
+    width: 80%;
+    display: flex;
+    background-color:rgb(42, 41, 41);
+    
+    align-items: center;
+    justify-content: space-between;
+    padding:1%;
+
+}
+.ques_h1{
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom:1%;
+
+}
+.que:hover{
+    background-color:rgb(60, 57, 57);
+    cursor: pointer;
+
+}
+.que_h4{
+    font-weight: 400;
+    margin-top: 1%;
+    margin-bottom: 1%; 
+    font-size: 20px;
+}
+
    
     
 
