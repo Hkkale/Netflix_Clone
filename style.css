@@ -9,6 +9,8 @@
     padding: 0;
     box-sizing:border-box ;
     font-family: 'Segoe UI';
+    overflow-x: hidden;
+   
     
     
 
@@ -17,7 +19,7 @@
 .Main{
     
     height: 100vh;
-    width: 100vw;
+    width: vw;
     background-image: url("/img_videos/back_netflix.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -64,7 +66,7 @@
     background-color: rgba(0, 0, 0, 0.376);
     font-size:100%;    
     color: white;
-    border: none;
+    
     border: 1px solid gray;
     
 }
@@ -345,6 +347,73 @@
     font-size: 20px;
 }
 
+footer{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    padding-top: 5%;
+    color: white;
+
+}
+
+.footmain{
+    display: flex;
+    height: 80%;
+    width: 75%;
+    margin-left: 12%;
+    flex-direction: column;
+    row-gap: 5%;
+    color:rgba(255, 255, 255, 0.7);
+
+    
+
+}
+.footcall{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+.footcall a{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    font-weight: 400;
+}
+.footlinks{
+    height: 60%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.footlinks a{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footbtn{
+
+    height: 15%;
+    background-color: rgba(42, 39, 39, 0.376);
+    color: white;
+    width: 15%;
+    
+    border: 1px solid gray;
+
+}
+.footmain p{
+    height: 10%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
    
     
 
